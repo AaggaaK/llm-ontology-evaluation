@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use OntoLLM-Benchmark in your work, please cite the following paper."
+
+title: "OntoLLM-Benchmark: A Multidimensional Framework for Evaluating Ontology-Grounded LLM Generation"
+
+authors:
+  - family-names: "Konys"
+    given-names: "Agnieszka"
+    affiliation: "West Pomeranian University of Technology, Szczecin; Faculty of Computer Science and Information Technology"
+    orcid: "https://orcid.org/0000-0001-8759-6000"
+
+version: "1.0.0"
+date-released: "2026-04-15"
+doi: "10.0000/placeholder-doi-ontollm-benchmark"
+license: "MIT"
+
+repository-code: "https://github.com/agnieszkakonys/OntoLLM-Benchmark"
+url: "https://github.com/agnieszkakonys/OntoLLM-Benchmark"
+
+type: software
+
+abstract: >
+  OntoLLM-Benchmark is a unified, multidimensional evaluation suite for ontology-grounded
+  generation in large language models. It provides ontology-derived instances, prompting
+  templates, theoretically grounded metrics, synthetic diagnostics, and a complete
+  evaluation pipeline across multiple domains and tasks.
+
+keywords:
+  - "large language models"
+  - "ontologies"
+  - "ontology-grounded generation"
+  - "evaluation"
+  - "neuro-symbolic AI"
+  - "semantic web"
+
+preferred-citation:
+  type: article
+  title: "OntoLLM-Benchmark: A Multidimensional Framework for Evaluating Ontology-Grounded LLM Generation"
+  authors:
+    - family-names: "Konys"
+      given-names: "Agnieszka"
+      affiliation: "West Pomeranian University of Technology, Szczecin; Faculty of Computer Science and Information Technology"
+      orcid: "https://orcid.org/0000-0001-8759-6000"
+  journal: "Information Processing & Management"
+  year: 2026
+  volume: "XX"
+  number: "YY"
+  pages: "ZZZ–ZZZ"
+  doi: "10.0000/placeholder-doi-ontollm-paper"
