@@ -1,0 +1,17 @@
+{
+  "domain": "environmental",
+  "ontology_sources": [
+    "ENVO (Environment Ontology)"
+  ],
+  "description": "Environmental ontology instances covering ecosystems, habitats, and environmental processes.",
+  "num_instances": 5,
+  "tasks": [
+    "definition",
+    "axiom_completion",
+    "hierarchical_placement",
+    "structural_coherence",
+    "provenance"
+  ],
+  "license": "CC-BY 4.0",
+  "version": "1.0.0"
+}

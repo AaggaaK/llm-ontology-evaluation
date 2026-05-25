@@ -1,0 +1,19 @@
+{
+  "domain": "biomedical",
+  "ontology_sources": [
+    "Gene Ontology (GO)",
+    "Cell Ontology (CL)",
+    "NCBI Taxonomy"
+  ],
+  "description": "Biomedical ontology instances covering cellular processes, anatomical structures, and molecular functions.",
+  "num_instances": 5,
+  "tasks": [
+    "definition",
+    "axiom_completion",
+    "hierarchical_placement",
+    "structural_coherence",
+    "provenance"
+  ],
+  "license": "CC-BY 4.0",
+  "version": "1.0.0"
+}

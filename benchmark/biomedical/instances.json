@@ -1,0 +1,68 @@
+[
+  {
+    "id": "bio_def_001",
+    "task": "definition",
+    "concept_label": "Apoptosis",
+    "concept_id": "GO:0006915",
+    "reference_text": "A programmed process of cell death that occurs as part of normal development and homeostasis.",
+    "ontology_relations": ["is_a:biological_process"],
+    "entailed_axioms": [],
+    "violated_axioms": [],
+    "valid_sources": ["Gene Ontology Consortium"],
+    "invalid_sources": [],
+    "path_length": 1,
+    "max_distance": 8
+  },
+  {
+    "id": "bio_axiom_002",
+    "task": "axiom_completion",
+    "concept_label": "Mitochondrial membrane",
+    "concept_id": "GO:0031966",
+    "reference_text": "",
+    "ontology_relations": ["is_a:membrane"],
+    "entailed_axioms": ["is_a:membrane"],
+    "violated_axioms": [],
+    "valid_sources": [],
+    "invalid_sources": [],
+    "path_length": 2,
+    "max_distance": 8
+  },
+  {
+    "id": "bio_hier_003",
+    "task": "hierarchical_placement",
+    "concept_label": "Cardiac muscle cell",
+    "concept_id": "CL:0000746",
+    "reference_text": "",
+    "ontology_relations": ["is_a:muscle_cell"],
+    "entailed_axioms": [],
+    "violated_axioms": [],
+    "valid_sources": [],
+    "invalid_sources": [],
+    "path_length": 1,
+    "max_distance": 8
+  },
+  {
+    "id": "bio_schema_004",
+    "task": "schema_validation",
+    "reference_text": "",
+    "ontology_relations": [],
+    "entailed_axioms": [],
+    "violated_axioms": ["range_violation:has_part"],
+    "valid_sources": [],
+    "invalid_sources": [],
+    "path_length": null,
+    "max_distance": 8
+  },
+  {
+    "id": "bio_prov_005",
+    "task": "provenance",
+    "reference_text": "BRCA1 is involved in DNA repair.",
+    "ontology_relations": [],
+    "entailed_axioms": [],
+    "violated_axioms": [],
+    "valid_sources": ["NCBI Gene", "UniProt"],
+    "invalid_sources": [],
+    "path_length": 3,
+    "max_distance": 8
+  }
+]

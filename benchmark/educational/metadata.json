@@ -1,0 +1,17 @@
+{
+  "domain": "educational",
+  "ontology_sources": [
+    "ESCO (European Skills, Competences, Qualifications and Occupations)"
+  ],
+  "description": "Educational ontology instances covering competences, learning activities, and pedagogical concepts.",
+  "num_instances": 5,
+  "tasks": [
+    "definition",
+    "axiom_completion",
+    "hierarchical_placement",
+    "structural_coherence",
+    "provenance"
+  ],
+  "license": "CC-BY 4.0",
+  "version": "1.0.0"
+}

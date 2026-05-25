@@ -1,0 +1,18 @@
+{
+  "domain": "general",
+  "ontology_sources": [
+    "Wikidata",
+    "WordNet"
+  ],
+  "description": "General-purpose ontology instances covering everyday concepts, artifacts, and common-sense categories.",
+  "num_instances": 5,
+  "tasks": [
+    "definition",
+    "axiom_completion",
+    "hierarchical_placement",
+    "structural_coherence",
+    "provenance"
+  ],
+  "license": "CC-BY 4.0",
+  "version": "1.0.0"
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "id": "env_def_001",
+    "task": "definition",
+    "concept_label": "Estuary",
+    "concept_id": "ENVO:00000016",
+    "reference_text": "A semi-enclosed coastal body of water where freshwater mixes with seawater.",
+    "ontology_relations": ["is_a:coastal_water_body"],
+    "entailed_axioms": [],
+    "violated_axioms": [],
+    "valid_sources": ["ENVO"],
+    "invalid_sources": [],
+    "path_length": 2,
+    "max_distance": 7
+  },
+  {
+    "id": "env_axiom_002",
+    "task": "axiom_completion",
+    "concept_label": "Tropical rainforest",
+    "concept_id": "ENVO:01000228",
+    "reference_text": "",
+    "ontology_relations": ["is_a:forest_ecosystem"],
+    "entailed_axioms": ["is_a:forest_ecosystem"],
+    "violated_axioms": [],
+    "valid_sources": [],
+    "invalid_sources": [],
+    "path_length": 3,
+    "max_distance": 7
+  },
+  {
+    "id": "env_hier_003",
+    "task": "hierarchical_placement",
+    "concept_label": "Coral reef",
+    "concept_id": "ENVO:01000154",
+    "reference_text": "",
+    "ontology_relations": ["is_a:marine_ecosystem"],
+    "entailed_axioms": [],
+    "violated_axioms": [],
+    "valid_sources": [],
+    "invalid_sources": [],
+    "path_length": 1,
+    "max_distance": 7
+  },
+  {
+    "id": "env_scs_004",
+    "task": "structural_coherence",
+    "concept_label": "",
+    "concept_id": "",
+    "reference_text": "",
+    "ontology_relations": [],
+    "entailed_axioms": [],
+    "violated_axioms": ["invalid_parent:wetland → desert"],
+    "valid_sources": [],
+    "invalid_sources": [],
+    "path_length": null,
+    "max_distance": 7
+  },
+  {
+    "id": "env_prov_005",
+    "task": "provenance",
+    "reference_text": "Mangroves protect coastlines from erosion.",
+    "ontology_relations": [],
+    "entailed_axioms": [],
+    "violated_axioms": [],
+    "valid_sources": ["IPCC", "UNEP"],
+    "invalid_sources": [],
+    "path_length": 2,
+    "max_distance": 7
+  }
+]

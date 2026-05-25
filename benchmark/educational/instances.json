@@ -1,0 +1,70 @@
+[
+  {
+    "id": "edu_def_001",
+    "task": "definition",
+    "concept_label": "Formative assessment",
+    "concept_id": "ESCO:0000123",
+    "reference_text": "An assessment approach used to monitor student learning and provide ongoing feedback.",
+    "ontology_relations": ["is_a:assessment_method"],
+    "entailed_axioms": [],
+    "violated_axioms": [],
+    "valid_sources": ["European Skills, Competences, Qualifications and Occupations (ESCO)"],
+    "invalid_sources": [],
+    "path_length": 1,
+    "max_distance": 6
+  },
+  {
+    "id": "edu_axiom_002",
+    "task": "axiom_completion",
+    "concept_label": "Curriculum design",
+    "concept_id": "ESCO:0000456",
+    "reference_text": "",
+    "ontology_relations": ["is_a:educational_activity"],
+    "entailed_axioms": ["is_a:educational_activity"],
+    "violated_axioms": [],
+    "valid_sources": [],
+    "invalid_sources": [],
+    "path_length": 2,
+    "max_distance": 6
+  },
+  {
+    "id": "edu_hier_003",
+    "task": "hierarchical_placement",
+    "concept_label": "Digital literacy",
+    "concept_id": "ESCO:0000789",
+    "reference_text": "",
+    "ontology_relations": ["is_a:competence"],
+    "entailed_axioms": [],
+    "violated_axioms": [],
+    "valid_sources": [],
+    "invalid_sources": [],
+    "path_length": 1,
+    "max_distance": 6
+  },
+  {
+    "id": "edu_scs_004",
+    "task": "structural_coherence",
+    "concept_label": "",
+    "concept_id": "",
+    "reference_text": "",
+    "ontology_relations": [],
+    "entailed_axioms": [],
+    "violated_axioms": ["domain_violation:requires_skill"],
+    "valid_sources": [],
+    "invalid_sources": [],
+    "path_length": null,
+    "max_distance": 6
+  },
+  {
+    "id": "edu_prov_005",
+    "task": "provenance",
+    "reference_text": "Project-based learning improves student engagement.",
+    "ontology_relations": [],
+    "entailed_axioms": [],
+    "violated_axioms": [],
+    "valid_sources": ["OECD Education Reports"],
+    "invalid_sources": [],
+    "path_length": 2,
+    "max_distance": 6
+  }
+]

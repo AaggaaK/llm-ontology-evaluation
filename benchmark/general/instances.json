@@ -1,0 +1,70 @@
+[
+  {
+    "id": "gen_def_001",
+    "task": "definition",
+    "concept_label": "Vehicle",
+    "concept_id": "WD:Q42889",
+    "reference_text": "A means of transport used to carry people or goods.",
+    "ontology_relations": ["is_a:artifact"],
+    "entailed_axioms": [],
+    "violated_axioms": [],
+    "valid_sources": ["Wikidata"],
+    "invalid_sources": [],
+    "path_length": 1,
+    "max_distance": 5
+  },
+  {
+    "id": "gen_axiom_002",
+    "task": "axiom_completion",
+    "concept_label": "Laptop",
+    "concept_id": "WD:Q3962",
+    "reference_text": "",
+    "ontology_relations": ["is_a:computer"],
+    "entailed_axioms": ["is_a:computer"],
+    "violated_axioms": [],
+    "valid_sources": [],
+    "invalid_sources": [],
+    "path_length": 1,
+    "max_distance": 5
+  },
+  {
+    "id": "gen_hier_003",
+    "task": "hierarchical_placement",
+    "concept_label": "Electric bicycle",
+    "concept_id": "WD:Q11442",
+    "reference_text": "",
+    "ontology_relations": ["is_a:bicycle"],
+    "entailed_axioms": [],
+    "violated_axioms": [],
+    "valid_sources": [],
+    "invalid_sources": [],
+    "path_length": 1,
+    "max_distance": 5
+  },
+  {
+    "id": "gen_scs_004",
+    "task": "structural_coherence",
+    "concept_label": "",
+    "concept_id": "",
+    "reference_text": "",
+    "ontology_relations": [],
+    "entailed_axioms": [],
+    "violated_axioms": ["range_violation:has_color"],
+    "valid_sources": [],
+    "invalid_sources": [],
+    "path_length": null,
+    "max_distance": 5
+  },
+  {
+    "id": "gen_prov_005",
+    "task": "provenance",
+    "reference_text": "Solar panels convert sunlight into electricity.",
+    "ontology_relations": [],
+    "entailed_axioms": [],
+    "violated_axioms": [],
+    "valid_sources": ["IEA Energy Reports"],
+    "invalid_sources": [],
+    "path_length": 2,
+    "max_distance": 5
+  }
+]
