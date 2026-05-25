@@ -1,0 +1,8 @@
+Complete the missing ontology axioms.
+
+Concept: {concept_label}
+Known axioms:
+{axioms_provided}
+
+Output:
+List the missing axioms.

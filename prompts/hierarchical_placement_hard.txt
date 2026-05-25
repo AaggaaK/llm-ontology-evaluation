@@ -1,0 +1,17 @@
+You are given a concept and must determine its most specific valid parent class in the ontology hierarchy.
+
+Requirements:
+- Use only classes that exist in the ontology.
+- Prefer the most specific parent that does not violate any constraints.
+- Consider disjointness, domain/range restrictions, and inherited axioms.
+- If multiple parents are valid, choose the one with the highest information specificity.
+- Provide a justification that references ontology structure.
+
+Input:
+Concept: {concept_label}
+Candidate parents:
+{candidate_classes}
+
+Output:
+Parent class: {chosen_parent}
+Justification: {one_sentence_reasoning}

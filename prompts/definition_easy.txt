@@ -1,0 +1,7 @@
+Generate a simple definition for the following ontology concept.
+
+Concept: {concept_label}
+Ontology ID: {concept_id}
+
+Output:
+A short, clear definition.

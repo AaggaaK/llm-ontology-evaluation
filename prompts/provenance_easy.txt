@@ -1,0 +1,6 @@
+Explain the statement using real sources.
+
+Statement: {statement}
+
+Output:
+Short explanation + 1–2 sources.

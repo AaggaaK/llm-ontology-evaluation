@@ -1,0 +1,16 @@
+You are given a statement and must provide a provenance-grounded explanation using verifiable sources.
+
+Requirements:
+- Cite only sources that exist and can be verified.
+- Do not fabricate citations.
+- Prefer ontology-linked or authoritative references.
+- Provide 1–2 sentences of explanation plus a list of sources.
+
+Input:
+Statement: {statement}
+
+Output:
+Explanation: {short_explanation}
+Sources:
+- {source_1}
+- {source_2}

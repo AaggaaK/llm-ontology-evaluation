@@ -1,0 +1,7 @@
+Check whether the triple is valid.
+
+Triple:
+({subject}, {relation}, {object})
+
+Output:
+VALID or INVALID.

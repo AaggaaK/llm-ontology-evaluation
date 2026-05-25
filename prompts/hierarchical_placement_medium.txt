@@ -1,0 +1,16 @@
+You are given a concept and must identify its most appropriate parent class within the ontology hierarchy.
+
+Requirements:
+- Select a parent class that exists in the ontology.
+- Ensure the placement is logically consistent with domain and range constraints.
+- Avoid overly general parents unless required.
+- Provide a brief justification (1–2 sentences).
+
+Input:
+Concept: {concept_label}
+Candidate parents:
+{candidate_classes}
+
+Output:
+Parent class: {chosen_parent}
+Justification: {one_sentence_reasoning}

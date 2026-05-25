@@ -1,0 +1,16 @@
+You are given a concept and an incomplete set of ontology axioms. Your task is to infer the missing axioms using strict ontology constraints.
+
+Requirements:
+- Use only relations and classes that exist in the ontology.
+- Consider domain, range, disjointness, and hierarchy constraints.
+- Do not repeat axioms already provided.
+- Include only axioms that are logically necessary.
+- If multiple axioms are possible, choose the most specific valid one.
+
+Input:
+Concept: {concept_label}
+Known axioms:
+{axioms_provided}
+
+Output:
+A list of logically necessary missing axioms.

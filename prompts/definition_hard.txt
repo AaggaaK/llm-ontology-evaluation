@@ -1,0 +1,16 @@
+You are given an ontology concept. Your task is to generate a definition that is both semantically precise and ontologically constrained.
+
+Requirements:
+- Use only terminology that appears in the ontology or is directly implied by it.
+- Avoid any speculative or inferred properties.
+- If the concept is ambiguous, disambiguate it using ontology structure.
+- Provide a single-sentence definition that captures necessary and sufficient conditions.
+- Do not include examples, analogies, or metaphors.
+
+Input:
+Concept: {concept_label}
+Ontology ID: {concept_id}
+Context: {optional_context}
+
+Output:
+A definition that is ontologically minimal, precise, and fully consistent with the ontology.

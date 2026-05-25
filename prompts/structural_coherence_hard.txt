@@ -1,0 +1,14 @@
+You are given a triple and must determine whether it violates ontology schema constraints, including edge cases.
+
+Requirements:
+- Check domain, range, disjointness, and inherited constraints.
+- Consider indirect violations (e.g., subclass of a disjoint class).
+- If INVALID, specify the exact violated constraint.
+- Do not assume missing information; reason strictly from ontology structure.
+
+Input triple:
+({subject}, {relation}, {object})
+
+Output:
+Status: VALID or INVALID
+Explanation: {one_sentence_reason}

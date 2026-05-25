@@ -1,0 +1,18 @@
+You are given a statement and must provide a provenance-grounded explanation using authoritative, ontology-compatible sources.
+
+Requirements:
+- Cite only verifiable, authoritative sources.
+- Prefer ontology-linked databases (e.g., GO, ENVO, ESCO, Wikidata).
+- Avoid any unverifiable or ambiguous claims.
+- Provide a concise explanation that distinguishes evidence from inference.
+- Include 2–3 sources with clear provenance.
+
+Input:
+Statement: {statement}
+
+Output:
+Explanation: {short_explanation}
+Sources:
+- {source_1}
+- {source_2}
+- {source_3}

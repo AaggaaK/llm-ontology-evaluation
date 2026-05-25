@@ -1,0 +1,15 @@
+You are given a triple and must determine whether it violates ontology schema constraints.
+
+Requirements:
+- Check domain and range constraints.
+- Check disjointness axioms.
+- Check class hierarchy constraints.
+- Respond with VALID or INVALID.
+- If INVALID, provide a one-sentence explanation.
+
+Input triple:
+({subject}, {relation}, {object})
+
+Output:
+Status: VALID or INVALID
+Explanation (only if INVALID): {one_sentence_reason}

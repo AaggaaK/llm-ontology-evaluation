@@ -1,0 +1,8 @@
+Choose the best parent class for the concept.
+
+Concept: {concept_label}
+Candidates:
+{candidate_classes}
+
+Output:
+Parent class: {chosen_parent}

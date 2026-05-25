@@ -1,0 +1,15 @@
+You are given a target ontology concept. Your task is to generate a precise, ontology-aligned definition.
+
+Requirements:
+- Use terminology consistent with the ontology.
+- Preserve semantic fidelity to the reference concept.
+- Avoid adding relations or properties not supported by the ontology.
+- Provide a single-sentence definition unless otherwise specified.
+
+Input:
+Concept: {concept_label}
+Ontology ID: {concept_id}
+Context: {optional_context}
+
+Output:
+A definition that is semantically aligned with the ontology and does not introduce unsupported claims.

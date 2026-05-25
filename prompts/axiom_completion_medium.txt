@@ -1,0 +1,16 @@
+You are given a concept and a partially specified set of ontology axioms. Your task is to complete the missing superclass or relation axioms.
+
+Requirements:
+- Use only relations that exist in the ontology.
+- Do not invent new properties or classes.
+- Ensure logical consistency with the ontology schema.
+- Provide only the missing axioms, not a full restatement.
+
+Input:
+Concept: {concept_label}
+Known axioms:
+{axioms_provided}
+
+Output:
+A list of missing axioms in the form:
+- {concept_label} {relation} {target_class}
